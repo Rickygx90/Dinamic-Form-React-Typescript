@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.modalContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    
+    .modal {
+      width: 450px;
+      height: auto;
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    }
+  }
